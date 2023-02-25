@@ -28,3 +28,12 @@ footer {
 .side-menu-container {
     position: absolute;
 }
+
+.dropdown {
+    font-size: 1em;
+}
+
+.list-item {
+    list-style: none;
+    padding: 1px;
+}

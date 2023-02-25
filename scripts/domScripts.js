@@ -3,6 +3,6 @@
 
 
 
-const temp = document.querySelector('.side-menu-container')
-temp.insertAdjacentHTML('beforeend', `<h1>Hello Insert</>`)
-
+let gbTime = new Intl.DateTimeFormat('en-GB').format(new Date())   //Great Britian
+const timeOutput = document.querySelector('#lang-output')
+timeOutput.textContent = gbTime

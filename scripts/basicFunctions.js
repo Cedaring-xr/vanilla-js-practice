@@ -26,16 +26,6 @@ const cypher = (str) => {
 }
 console.log(cypher('hello'))
 
-// get Date and format into expected output
-// mm-dd-yyyy, mm/dd/yyyy
-const getFormattedDate = (date = new Date()) => {
-    const days = date.getDate()
-    const months = date.getMonth() + 1
-    const years = date.getFullYear()
-    return `${days}/${months}/${years}`
-}
-console.log(getFormattedDate())
-
 // pre-pend new onto a string
 const newString = (str) => {
     let newStr = str.indexOf('new') == 0 ? str : `new-${str}`
@@ -79,6 +69,4 @@ const specificCharacter = (str, char) => {
 }
 console.log(specificCharacter('somethings are better left unsaid', 's'))
 console.log(specificCharacter('some', 's'))
-
-
 
